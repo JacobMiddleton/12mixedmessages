@@ -21,3 +21,8 @@ const adjectives = [
     'joyful', 'courteous', 'dependant', 'pale', 'ritzy', 'glowing', 'sparkling', 'blue', 'brilliant', 'old',
     'happy', 'fat', 'hard', 'enormous', 'dreary', 'upbeat', 'graceful', 'wealthy', 'pink', 'fast'
 ];
+
+const randomWord = (array) => {
+    let randomIndex = Math.floor(Math.random() * array.length);
+    return array[randomIndex];
+};
