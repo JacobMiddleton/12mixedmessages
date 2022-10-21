@@ -25,7 +25,7 @@ const adjectives = [
 // selects a random word from an array
 
 const randomWord = (array) => {
-    let randomIndex = Math.floor(Math.random() * array.length);
+    const randomIndex = Math.floor(Math.random() * array.length);
     return array[randomIndex];
 };
 
