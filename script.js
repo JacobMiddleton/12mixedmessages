@@ -13,3 +13,11 @@ const nouns = [
      computer, balloon, mouse, chair, trailer, moose, lion, chipmunk, hotel, pancake, 
      arrow, guitar, calculator, rifle, tree, monkey, brother, sister, girl, boy 
 ];
+
+// array of adjectives 
+
+const adjectives = [
+    yellow, beutiful, grumpy, sad, round, werid, flat, powerful, green, smelly,
+    joyful, courteous, dependant, pale, ritzy, glowing, sparkling, blue, brilliant, old,
+    happy, fat, hard, enormous, dreary, upbeat, graceful, wealthy, pink, fast
+];
