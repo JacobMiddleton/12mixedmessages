@@ -22,7 +22,11 @@ const adjectives = [
     'happy', 'fat', 'hard', 'enormous', 'dreary', 'upbeat', 'graceful', 'wealthy', 'pink', 'fast'
 ];
 
+// selects a random word from an array
+
 const randomWord = (array) => {
     let randomIndex = Math.floor(Math.random() * array.length);
     return array[randomIndex];
 };
+
+console.log(`My ${randomWord(adjectives)} ${randomWord(nouns)} and I go ${randomWord(verbs)} every morning.`);
